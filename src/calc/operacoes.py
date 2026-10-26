@@ -1,5 +1,5 @@
 """Operações aritméticas simples."""
-"""comentarioooooo"""
+"""comentariooooooooooo"""
 
 def soma(a: float, b: float) -> float:
     return a + b
