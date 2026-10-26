@@ -1,5 +1,7 @@
 # gha-lab
 
+![CI](https://github.com/AndreGGomes/gha-lab/actions/workflows/ci.yml/badge.svg)
+
 Projeto-base do laboratório de GitHub Actions (Aula 2): um pacote Python mínimo
 (`calc`) com seis testes. Você **não precisa instalar Python** — todas as
 ferramentas rodam em um contêiner Docker. aaaaaa
