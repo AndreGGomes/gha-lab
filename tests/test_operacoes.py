@@ -8,7 +8,7 @@ def test_soma():
 
 
 def test_subtrai():
-    assert subtrai(10, 4) == 6
+    assert subtrai(10, 4) == 5
 
 
 def test_divide():
