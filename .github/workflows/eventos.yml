@@ -10,8 +10,6 @@ on:
   push:
     paths:
       - "src/**"
-    schedule:
-      - cron: "*/5 * * * *"
 jobs:
   cumprimentar:
     runs-on: ubuntu-latest
