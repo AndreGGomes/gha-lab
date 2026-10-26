@@ -57,3 +57,5 @@ docker run --rm -v "$(pwd)":/app gha-lab-dev pytest -v
 
 `git commit` e `git push` são feitos **no seu computador**, onde estão as
 credenciais do GitHub.
+
+*modificando o readme
