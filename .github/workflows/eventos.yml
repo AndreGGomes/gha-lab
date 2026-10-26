@@ -1,0 +1,20 @@
+name: 02 - eventos
+
+on:
+  workflow_dispatch:
+    inputs:
+      nome:
+        discription: "Oi, "
+        required: true
+        default: "turma"
+  push:
+    paths:
+      - "src/**"
+
+jobs:
+  cumprimentar:
+    runs-on: ubuntu-latest
+    steps:
+       - env:
+          NOME: {{ inputs.nome || 'agendamento' }}
+         run: echo "Olá, $NOME ($GITHUB_EVENT_NAME)"
