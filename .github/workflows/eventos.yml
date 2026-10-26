@@ -16,5 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - env:
-          NOME: {{ inputs.nome || 'agendamento' }}
+          NOME: ${{ inputs.nome || 'agendamento' }}
          run: echo "Olá, $NOME ($GITHUB_EVENT_NAME)"
